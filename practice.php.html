@@ -1,0 +1,1999 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+	<title>Indian Abacus Academy - Practice</title>
+	<meta
+		content="Indian Abacus Academy abacus classes in Academy, Vedicmath Handwriting Rubik's Cube solved Midbrain action . DMIT TEST.Indian Abacus Academy"
+		name="descriptison">
+	<meta
+		content="Abacus,Vedic Math,kids English,Mental Maths, Dmit,Speed Reading,Kalfun,Midbrain Activation,Master Memory,Mnemonics Method,Handwriting,Calligraphy,Kids Memory,Phonics Sound,Chess,Rubik's Cube,DMIT"
+		name="keywords">
+
+	<!-- Favicons -->
+	<link href="assets/img/indian-abacus-academy.png" rel="icon">
+	<link href="assets/img/indian-abacus-academy-large.png" rel="apple-touch-icon">
+
+	<link
+		href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+		rel="stylesheet">
+
+	<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/header.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+		integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href="assets/vendor/swiper/css/swiper.css" rel="stylesheet">
+	<link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+	<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+	<link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+	<link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+	<link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/practice.css" rel="stylesheet">
+	<link href="assets/css/corousel.css" rel="stylesheet">
+	<link href="assets/css/extras.css" rel="stylesheet">
+	<link href="assets/css/footer.css" rel="stylesheet">
+	<link href="assets/css/login-signup.css" rel="stylesheet">
+
+	<script src="assets/vendor/swiper/js/swiper.js"></script>
+	<script src="assets/vendor/three/js/three.js"></script>
+
+	<script>!function (e) { "undefined" == typeof module ? this.charming = e : module.exports = e }(function (e, n) { "use strict"; n = n || {}; var t = n.tagName || "span", o = null != n.classPrefix ? n.classPrefix : "char", r = 1, a = function (e) { for (var n = e.parentNode, a = e.nodeValue, c = a.length, l = -1; ++l < c;) { var d = document.createElement(t); o && (d.className = o + r, r++), d.appendChild(document.createTextNode(a[l])), n.insertBefore(d, e) } n.removeChild(e) }; return function c(e) { for (var n = [].slice.call(e.childNodes), t = n.length, o = -1; ++o < t;)c(n[o]); e.nodeType === Node.TEXT_NODE && a(e) }(e), e });
+	</script>
+
+</head>
+
+<body>
+
+	<style>
+input[type=text],input[type=email],input[type=password]{
+	width:300px;
+}
+
+/* Shared */
+.loginBtn {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%; 
+  height: 38px;;
+  margin: 0.2em;
+  padding: 0 15px 0 100px;
+  border: none;
+  text-align: left;
+  line-height: 34px;
+  border-radius: 0.2em;
+  font-size: 16px;
+  color: #FFF;
+}
+.loginBtn:before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  margin-top:-8px;
+  margin-left:-70px;
+  width: 100%;
+  height: 100%;
+}
+.loginBtn:focus {
+  outline: none;
+}
+.loginBtn:active {
+  box-shadow: inset 0 0 0 32px rgba(0,0,0,0.2);
+}
+
+
+<!-- Google */
+.loginBtn--google {
+  /*font-family: "Roboto", Roboto, arial, sans-serif;*/
+  background: #DD4A39;
+}
+.loginBtn--google:before {
+  border-right: #BB3F30 1px solid;
+  background: url('assets/img/googleIcon.png') 6px 6px no-repeat;
+}
+.loginBtn--google:hover,
+.loginBtn--google:focus {
+  background: #E74B37;
+}
+-->
+</style>
+
+<div class="container-fluid">
+<div class="modal fade" id="modalLoginSignUp" >
+		<div class="modal-dialog" style="background:transparent;border:2px solid transparent;width:380px;input {width:100px;}">
+		  <div class="modal-content" style="background:transparent;border:2px solid transparent;width:380px; input {width:100px;}">			
+							<br>
+			<!-- Modal body -->
+			<div class="modal-body" style="background:transparent;border:2px solid transparent;width:380px;input {width:100px;}">
+				<div class="card text-center row justify-content-center" style="background-color: white; border:2px solid white; width:95%;input {width:100px;}">
+					<center><img id="image" src="assets/img/avatar.png" title="Click to upload profile" alt="your image" class="avatar" style="border-radius:50%;cursor: pointer;" 
+						/></center>
+					<div class="card-body row justify-content-center">
+						<form class="form-horizontal" id="form-login" style="width:95%;" runat="server">
+							<br><br><br>
+							<div class="form-group">
+								<div class="input-group">
+									<div class="input-group-prepend">
+										<span class="input-group-text">
+											<span class="fa fa-envelope"></span>
+										</span>                    
+									</div>
+									<input type="text" class="form-control" placeholder="Enter Your Email Id" required="required" id="login-email">
+								</div>
+							</div>
+							<div class="form-group" style="margin-top:34px;">
+								<div class="input-group">
+									<div class="input-group-prepend">
+										<span class="input-group-text">
+											<i class="fa fa-lock"></i>
+										</span>                    
+									</div>
+									<input type="password" class="form-control" placeholder="Password" required="required" id="login-password">
+								</div>
+							</div> 
+							<a id="open-forgotPass-form" style="font-size: 14px; color:gray; cursor: pointer;"><strong>Forgot your password?</strong></a>
+							<div class="form-group" style="margin-top:10px;">
+								<button type="button" class="btn btn-primary btn-block" onclick="loginUsingEmailPassword(this)">Log in</button>
+							</div>
+							<!--	<p style="margin-top:-10px;">Or</p>
+							<div class="form-group" style="margin-top:-10px;">
+								<button type="button" class="loginBtn loginBtn--google" onclick="loginUsingGoogle()">
+								  Login with Google+
+								</button>
+							</div>-->	
+							<p style="color:black;font-size:16px;">Don't Have An Account</p>
+							<button type="button" class="btn btn-link" id="open-signup-form" style="border:none;color:blue;margin-top:-45px;font-size:16px;">Sign-Up</button>
+						</form>
+						
+						<form class="form-horizontal" id="form-signup"  hidden>
+							<br><br>
+							<input type='file' id="imgInp" onchange="setImage(this)"  style="display:none;"/>
+							<p ><span style="color:red;font-size:30px;">*</span> All fields are manadatory</p>
+							
+							
+							<div class="form-group">
+								<input name="fullname" class="form-control" type="text" placeholder="Full Name" id="signup-username" required>
+							</div>
+							
+							
+							<div class="form-group">
+								<input name="email" class="form-control" type="email" placeholder="Email" id="signup-email" required>
+							</div>
+							
+							
+							<div class="form-group">
+								<input name="mobile" class="form-control" type="tel" placeholder="Mobile Number" id="signup-mobile" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+							</div>
+							
+							
+							
+							<div class="form-group">
+								<input name="password" class="form-control" type="password" placeholder="Password"  id="signup-password" required>
+								<img src="assets/img/exclaim1.png" title="Enter Uppercase(A-Z), Lowercase(a-z),special character,digits(0-9) and it should be 8-15 digits" style="height:20px;width:20px;border-radius:20%;float:right;margin-top:-30px">
+							</div>
+							
+							<div class="form-group">
+								<input name="cpassword" class="form-control" type="password" placeholder="Confirm Password" id="signup-cpassword" required>
+							</div>
+							
+							<div class="form-group">
+								<input name="signup" type="button" value="Sign-Up" class="form-control btn-outline-primary" style="border:none;color:white;background-color:#DA5421;font-size:16px;"  id="signup-button" onclick="signUpWithEmailPasswoerd(this)">
+							</div>
+							<p style="color:black;font-size:16px;">Already Have An Account</p>
+							<button type="button" class="btn btn-link" id="open-login-form" style="border:none;color:blue;margin-top:-45px;font-size:16px;">Login</button>
+							
+						</form>
+						
+						<form class="form-horizontal" id="form-forgetPass"  hidden>
+							
+							<h1 style="font-weight: bold ; font-size:25px; text-align:center;">Reset your Password</h1>
+							<div class="form-group" style="margin-top:25px;">
+								<input name="email" class="form-control" type="email" placeholder="Email" id="forget-password-email">
+							</div>
+							<div class="form-group" style="margin-top:15px;">
+								<button type="button" class="btn btn-primary btn-block" onclick="sendForgetLink()" >Send Forget Link</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>		
+		  </div>
+		</div>
+	</div>
+</div>
+
+	<div class="modal fade" id="showDetailModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="showDetailModalLabel">Free Practice</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<h6>Your Details</h6>
+					<table class="table">
+						<tbody>
+							<tr>
+								<th scope="column">Name</th>
+								<td class="text-primary" id="showDetailModalUserName"></td>
+							</tr>
+
+							<tr>
+								<th scope="column">Center</th>
+								<td class="text-primary" id="showDetailModalCenterName"></td>
+							</tr>
+
+							<tr>
+								<th scope="column" id="showDetailModalModeTitle">Mode</th>
+								<td class="text-primary" id="showDetailModalModeValue">Easy</td>
+							</tr>
+
+							<tr>
+								<th scope="column">Level</th>
+								<td class="text-primary" id="showDetailModalLevel">Level 0</td>
+							</tr>
+
+							<tr id="showDetailModalPasswordTab">
+								<th scope="column">Password</th>
+								<td class="text-primary"><input id="showDetailModalPassword" class="form-control"
+										type="text" placeholder="Enter Your Password Here"></td>
+							</tr>
+
+							<tr id="showDetailModalTimeTab">
+								<th>Choose Time</th>
+								<td><button id="showDetailModalTimeThree" type="button"
+										class="btn btn-outline-primary  rightspace" style="width:22%;">3</button><button
+										id="showDetailModalTimeFive" type="button"
+										class="btn btn-outline-primary  rightspace" style="width:22%;">5</button><button
+										id="showDetailModalTimeSeven" type="button"
+										class="btn btn-outline-primary  rightspace" style="width:22%;">7</button></td>
+							</tr>
+
+
+
+						</tbody>
+					</table>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary" id="continueModal">Continue</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container-fluid header-background">
+		<div class="row main-header">
+			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2 main-logo-div">
+				<a href="index.php.html"><img class="main-logo" src="assets/img/indian-abacus-academy-large.png"></a>
+			</div>
+			<div class="col-xl-6 col-lg-5 col-md-5 col-sm-5 col-xs-5">
+				<p class="title">Indian Abacus Academy</p>
+				<p class="sub-title">An international institute of mental math and brain development</p>
+			</div>
+			<div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+				<div class="container">
+					<div class="row justify-content-end">
+						<div class="col-xs-6">
+							<p class="certificate">ISO 9001:2015 Certified Institute</p>
+						</div>
+						<div class="col-xs-6">&nbsp;&nbsp;<button id="login-signup-button" type="button"
+								class="btn btn-outline-danger" data-toggle="modal" data-target="#modalLoginSignUp"><i
+									id="login-signup-icon" class="far fa-user"></i></button></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row colorful-strip"></div>
+	</div>
+
+	<nav class="navbar navbar-expand-lg navbar-mainbg" id="myHeader">
+		<a class="navbar-brand navbar-logo" href="practice.php.html#"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<i class="fas fa-bars"></i>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<div class="hori-selector">
+					<div class="left"></div>
+					<div class="right"></div>
+				</div>
+				<li class="nav-item">
+					<a class="nav-link" href="index.php.html"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about-us.php.html"><i class="far fa-user"></i>About Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="gallery.php.html"><i class="far fa-image"></i>Gallery</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="program.php.html"><i class="far fa-calendar-alt"></i>Program</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="franchise.php.html"><i class="far fa-building"></i>Franchise</a>
+				</li>
+				<li class="nav-item active">
+					<!-- 🔹 Immediate Alert on Click -->
+					<a class="nav-link" href="practice.php.html" onclick="checkLoginStatus(event)">
+						<i class="far fa-clipboard"></i>Test / Exam
+					</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="https://eazypay.icicibank.com/eazypayLink?P1=3oKg52vCU3oCVzaDaX4oRw=="
+						target="_blank">
+						<i class="fa-solid fa-indian-rupee-sign"></i>Payment
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.php.html"><i class="far fa-address-book"></i>Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="container-fluid">
+		<div class="row justify-content-center">
+			<div class="col-lg-4 free-practice-background ">
+				<a type="button" onclick="goToPracticeScore()" style=" right:10px; position:absolute; top:8px;"
+					data-toggle="tooltip" title="Practice Score">
+					<img src="assets/img/practice-score.png" alt=" score" width="50" height="50">
+				</a>
+				<center>
+					<h4 class="text-primary practice-margin">
+						Free Practice
+					</h4>
+				</center>
+				<h5 class="margin_twenty">Name </h5>
+				<input id="practice_user_name" type="text" class="form-control width_hundred"
+					placeholder="Enter Your Full Name">
+				<h5 class="margin_twenty">Center </h5>
+				<input id="practice_center_name" type="text" class="form-control width_hundred"
+					placeholder="Enter Your Center Name">
+				<h5 class="margin_twenty">Choose Mode </h5>
+				<div class="row justify-content-center padding_ten">
+					<button id="practice_easy_button" type="button" class="btn btn-outline-primary  rightspace"
+						style="width:30%;">Easy</button>
+					<button id="practice_medium_button" type="button" class="btn btn-outline-primary  rightspace "
+						style="width:30%;">Medium</button>
+					<button id="practice_hard_button" type="button" class="btn btn-outline-primary  rightspace "
+						style="width:30%;">Hard</button>
+				</div>
+
+				<h5 class="margin_twenty">Choose Level </h5>
+				<div class="row justify-content-center padding_ten">
+					<button id="practice_btn_0" type="button"
+						class="btn btn-outline-primary btn-lg  rightspace">0</button>
+					<button id="practice_btn_1" type="button"
+						class="btn btn-outline-primary btn-lg rightspace">1</button>
+					<button id="practice_btn_2" type="button"
+						class="btn btn-outline-primary btn-lg rightspace">2</button>
+					<button id="practice_btn_3" type="button"
+						class="btn btn-outline-primary btn-lg rightspace">3</button>
+				</div>
+				<div class="row justify-content-center padding_ten">
+
+					<button id="practice_btn_4" type="button"
+						class="btn btn-outline-primary btn-lg rightspace">4</button>
+					<button id="practice_btn_5" type="button"
+						class="btn btn-outline-primary btn-lg rightspace">5</button>
+					<button id="practice_btn_6" type="button"
+						class="btn btn-outline-primary btn-lg rightspace">6</button>
+					<button id="practice_btn_7" type="button"
+						class="btn btn-outline-primary btn-lg rightspace">7</button>
+				</div>
+				<div class="row justify-content-center padding_ten">
+
+					<button id="practice_btn_8" type="button"
+						class="btn btn-outline-primary btn-lg rightspace">8</button>
+					<button id="practice_btn_9" type="button"
+						class="btn btn-outline-primary btn-lg rightspace">9</button>
+					<button id="practice_btn_10" type="button"
+						class="btn btn-outline-primary btn-lg rightspace">10</button>
+
+				</div>
+
+
+				<center><button type="button" class="btn btn-primary practice_start_button"
+						onclick="startPracting()">Start Practice</button></center>
+
+			</div>
+			<div class="col-lg-4 online-test-background">
+				<a type="button" onclick="goToTestScore()" style=" right:10px; position:absolute; top:8px;"
+					data-toggle="tooltip" title="Test Score">
+					<img src="assets/img/test-score.png" alt=" score" width="50" height="50">
+				</a>
+				<center>
+					<h4 class="text-success practice-margin">
+						Online Test
+					</h4>
+				</center>
+				<h5 class="margin_twenty">Name </h5>
+				<input id="test_user_name" type="text" class="form-control width_hundred"
+					placeholder="Enter Your Full Name">
+				<h5 class="margin_twenty">Center </h5>
+				<input id="test_center_name" type="text" class="form-control width_hundred"
+					placeholder="Enter Your Center Name">
+				<h5 class="margin_twenty">Choose Test Type </h5>
+				<div class="row justify-content-center padding_ten">
+					<button id="test_weekly_button" type="button" class="btn btn-outline-success rightspace "
+						style="width:45%;">Weekly Test</button>
+					<button id="test_monthly_button" type="button" class="btn btn-outline-success rightspace "
+						style="width:45%;">Monthly Test</button>
+				</div>
+
+				<h5 class="margin_twenty">Choose Level </h5>
+				<div class="row justify-content-center padding_ten">
+					<button id="test_btn_0" type="button" class="btn btn-outline-success btn-lg rightspace">0</button>
+					<button id="test_btn_1" type="button" class="btn btn-outline-success btn-lg rightspace">1</button>
+					<button id="test_btn_2" type="button" class="btn btn-outline-success btn-lg rightspace">2</button>
+					<button id="test_btn_3" type="button" class="btn btn-outline-success btn-lg rightspace">3</button>
+				</div>
+				<div class="row justify-content-center padding_ten">
+
+					<button id="test_btn_4" type="button" class="btn btn-outline-success btn-lg rightspace">4</button>
+					<button id="test_btn_5" type="button" class="btn btn-outline-success btn-lg rightspace">5</button>
+					<button id="test_btn_6" type="button" class="btn btn-outline-success btn-lg rightspace">6</button>
+					<button id="test_btn_7" type="button" class="btn btn-outline-success btn-lg rightspace">7</button>
+				</div>
+				<div class="row justify-content-center padding_ten">
+
+					<button id="test_btn_8" type="button" class="btn btn-outline-success btn-lg rightspace">8</button>
+					<button id="test_btn_9" type="button" class="btn btn-outline-success btn-lg rightspace">9</button>
+					<button id="test_btn_10" type="button" class="btn btn-outline-success btn-lg rightspace">10</button>
+
+				</div>
+
+
+				<center><button type="button" class="btn btn-success practice_start_button" onclick="startTest()">Start
+						Test</button></center>
+
+			</div>
+
+			<div class="col-lg-4 online-exam-background">
+				<a type="button" onclick="goToExamScore()" style=" right:10px; position:absolute; top:8px;"
+					data-toggle="tooltip" title="Exam Score">
+					<img src="assets/img/exam-score.png" alt=" score" width="50" height="50">
+				</a>
+				<center>
+					<h4 class="text-dark practice-margin">
+						Online Exam
+					</h4>
+				</center>
+				<h5 class="margin_twenty">Name </h5>
+				<input id="exam_user_name" type="text" class="form-control width_hundred"
+					placeholder="Enter Your Full Name">
+				<h5 class="margin_twenty">Center </h5>
+				<input id="exam_center_name" type="text" class="form-control width_hundred"
+					placeholder="Enter Your Center Name">
+				<h5 class="margin_twenty">Choose Exam Type </h5>
+				<div class="row justify-content-center padding_ten">
+					<button id="exam_mid_button" type="button" class="btn btn-outline-dark rightspace "
+						style="width:45%;">Olympiad</button>
+					<button id="exam_final_button" type="button" class="btn btn-outline-dark rightspace "
+						style="width:45%;">Final Exam</button>
+				</div>
+
+				<h5 class="margin_twenty">Choose Level </h5>
+				<div class="row justify-content-center padding_ten">
+					<button id="exam_btn_0" type="button" class="btn btn-outline-dark btn-lg rightspace">0</button>
+					<button id="exam_btn_1" type="button" class="btn btn-outline-dark btn-lg rightspace">1</button>
+					<button id="exam_btn_2" type="button" class="btn btn-outline-dark btn-lg rightspace">2</button>
+					<button id="exam_btn_3" type="button" class="btn btn-outline-dark btn-lg rightspace">3</button>
+				</div>
+				<div class="row justify-content-center padding_ten">
+
+					<button id="exam_btn_4" type="button" class="btn btn-outline-dark btn-lg rightspace">4</button>
+					<button id="exam_btn_5" type="button" class="btn btn-outline-dark btn-lg rightspace">5</button>
+					<button id="exam_btn_6" type="button" class="btn btn-outline-dark btn-lg rightspace">6</button>
+					<button id="exam_btn_7" type="button" class="btn btn-outline-dark btn-lg rightspace">7</button>
+				</div>
+				<div class="row justify-content-center padding_ten">
+
+					<button id="exam_btn_8" type="button" class="btn btn-outline-dark btn-lg rightspace">8</button>
+					<button id="exam_btn_9" type="button" class="btn btn-outline-dark btn-lg rightspace">9</button>
+					<button id="exam_btn_10" type="button" class="btn btn-outline-dark btn-lg rightspace">10</button>
+
+				</div>
+
+
+				<center><button type="button" class="btn btn-dark text-white practice_start_button"
+						onclick="startExam()">Start Exam</button></center>
+
+			</div>
+
+		</div>
+	</div>
+
+
+	<main id="main">
+		<div class="site-section py-5 bg-fun-color">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div
+						class="col-md-12 d-flex flex-column flex-md-row justify-content-between align-items-center text-center text-md-start">
+						<h2 class="m-0 mb-3 mb-md-0">Bring Fun Life To Your Kids</h2>
+						<div class="d-flex flex-column flex-sm-row" style="position: relative; gap:20px;">
+							<a href="https://play.google.com/store/apps/details?id=com.prime.indianabacusacademys"
+								target="_blank">
+								<img src="assets/img/google-playstore.jpg"
+									style="width: 200px; height: auto; border-radius: 10px;">
+							</a>
+							<a href="https://apps.apple.com/in/app/indian-abacus-academy/id6739959081" target="_blank"
+								class="pt-1">
+								<img src="assets/img/iso-img1.jpg"
+									style="width: 215px; height: auto; border-radius: 10px;">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main><!-- End #main -->
+	<div class="container-fluid">
+		<div class="row colorful-strip"></div>
+	</div>
+
+	</div>
+
+	<!-- ======= Footer ======= -->
+	<footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Address<span></span></h3>
+            <p style="font-style:normal;">
+              7/56 M.P. Nagar<br>
+              Bikaner Rajasthan<br>
+              India <br><br>
+              <strong>Phone:</strong> +91-7627013952<br>
+			  <strong>Other:</strong> +91-7014310292<br>
+              <strong>Email:</strong> indianabacusacademy@gmail.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul style="list-style:none;">
+              <li><i class="bx bx-chevron-right"></i> <a href="index.php.html">Dashboard</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about-us.php.html">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="gallery.php.html">Gallery</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="program.php.html">program</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="franchise.php.html">Franchise</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contact.php.html">Contact</a></li>
+			  <li><i class="bx bx-chevron-right"></i> <a href="feedback.php.html">Feedback</a></li>
+			  <li><i class="bx bx-chevron-right"></i> <a href="locate-center.php.html">Locate Our Center</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Courses</h4>
+            <ul style="list-style:none;">
+              <li><i class="bx bx-chevron-right"></i> <a href="https://en.wikipedia.org/wiki/Abacus" target="_blank">Abacus</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://en.wikipedia.org/wiki/Vedic_Mathematics" target="_blank">vedic Maths</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://en.wikipedia.org/wiki/Midbrain_activation" target="_blank">Midbrain Activation</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://en.wikipedia.org/wiki/Rubik%27s_Cube" target="_blank">Rubik's Cube</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.facebook.com/299640080663796/posts/747544359206697/" target="_blank">Kalfun</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <p>Join us on</p>
+            <div class="social-links mt-3">
+              <a href="https://wa.me/message/X2HO4T2WTN7RE1" target="_blank" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+              <a href="https://www.facebook.com/IndianAbacusAcademy/" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/invites/contact/?i=14zlfph2wqdsc&utm_content=4c3g0un" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="mailto:indianabacusacademy@gmail.com" target="_blank" class="google-plus"><i class="bx bxl-google-plus"></i></a>
+              <a href="https://youtube.com/@Indian.Abacus.Academy?si=Tu7sBj4GrRALhnYz" target="_blank" class="youtube"><i class='bx bxl-youtube' ></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-3">
+      <!--<center>-->
+      <!--    <div>Developed &amp; Managed By <a href="https://www.varzish.com/tech/contact-us.php" target="_blank" style="color:#3c8cef;">Varzish</a></div>-->
+      <!--</center>-->
+      <br>
+	  <div class="copyright">
+        &copy; Copyright <strong><span>Indian Abacus Academy</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer>	<!-- End Footer -->
+
+	<div id="preloader"></div>
+	<a href="https://wa.me/message/X2HO4T2WTN7RE1" target="_blank" class="help" style="cursor:pointer;"><i
+			class="bx bxl-whatsapp"><span class="helpSpan">&nbspChat</span></i></a>
+	<!--<a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>-->
+
+
+	<script src="assets/vendor/jquery/jquery.min.js"></script>
+	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+	<script src="assets/vendor/php-email-form/validate.js"></script>
+	<script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+	<script src="assets/vendor/counterup/counterup.min.js"></script>
+	<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+	<script src="assets/vendor/venobox/venobox.min.js"></script>
+	<script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+
+	<!-- Template Main JS File -->
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/corousel.js"></script>
+	<script src="assets/js/header.js"></script>
+	<script src="assets/js/auth.js"></script>
+	<script src="assets/js/login-signup.js"></script>
+
+	<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
+
+
+	<script>
+		var _0x1e38 = ['62lpictR', '503BGPPHK', '14747NSSvGR', '124Atxgqb', '55587iYuPkJ', '334943jYwUnh', '5xtleYn', '45843wMKekA', 'https://indian-abacus-academy-default-rtdb.firebaseio.com', '2263vwhuOH', 'AIzaSyBTqKw5tOx5ZFw3VVOk9ajv_01iyeKnpPU', '848634448384', '6272EdkBJT', 'indian-abacus-academy', '555sQuIeY', '17qzuNdn']; var _0x3959 = _0x2d08; (function (_0x15067b, _0x22e28b) { var _0x442033 = _0x2d08; while (!![]) { try { var _0x164a5d = parseInt(_0x442033(0x1ca)) + parseInt(_0x442033(0x1cc)) * -parseInt(_0x442033(0x1cb)) + parseInt(_0x442033(0x1ce)) * -parseInt(_0x442033(0x1d8)) + -parseInt(_0x442033(0x1d7)) * -parseInt(_0x442033(0x1d4)) + -parseInt(_0x442033(0x1d6)) * parseInt(_0x442033(0x1d3)) + parseInt(_0x442033(0x1d9)) + -parseInt(_0x442033(0x1d5)) * -parseInt(_0x442033(0x1d1)); if (_0x164a5d === _0x22e28b) break; else _0x15067b['push'](_0x15067b['shift']()); } catch (_0x410f01) { _0x15067b['push'](_0x15067b['shift']()); } } }(_0x1e38, 0x3adcd)); function _0x2d08(_0x851eb1, _0x3b4308) { _0x851eb1 = _0x851eb1 - 0x1ca; var _0x1e38a8 = _0x1e38[_0x851eb1]; return _0x1e38a8; } var firebaseConfig = { 'apiKey': _0x3959(0x1cf), 'authDomain': 'indian-abacus-academy.firebaseapp.com', 'databaseURL': _0x3959(0x1cd), 'projectId': _0x3959(0x1d2), 'storageBucket': 'indian-abacus-academy.appspot.com', 'messagingSenderId': _0x3959(0x1d0), 'appId': '1:848634448384:web:d946f1f9131deb88a466e5' };
+
+		// Initialize Firebase
+		firebase.initializeApp(firebaseConfig);
+		firebase.analytics();
+	</script>
+
+
+	<script>
+		$('[data-toggle="tooltip"]').tooltip();
+		var eml = 'NONE';
+			var pas = 'NONE';
+			var nm = 'NONE';
+			var uni_id = 'NONE';
+
+			if (eml != "NONE" && pas != "NONE" && nm != "NONE") {
+				authenticate(eml, pas, nm);
+			}
+
+			window.onscroll = function () { myFunction() };
+
+			var header = document.getElementById("myHeader");
+			var sticky = header.offsetTop;
+
+			var practice_user_name = "", practice_center_name = "", practice_mode = "", practice_level = "", practice_time = "", practice_question = "";
+
+			var test_user_name = "", test_center_name = "", test_type = "", test_level = "";
+
+			var exam_user_name = "", exam_center_name = "", exam_type = "", exam_level = "";
+
+			$("#showDetailModalTimeThree").click(function () {
+				$("#showDetailModalTimeThree").attr("class", "btn btn-primary btn-lg rightspace");
+				$("#showDetailModalTimeFive").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#showDetailModalTimeSeven").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				practice_time = "3";
+				practice_question = "50";
+			});
+
+			$("#showDetailModalTimeFive").click(function () {
+				$("#showDetailModalTimeThree").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#showDetailModalTimeFive").attr("class", "btn btn-primary btn-lg rightspace");
+				$("#showDetailModalTimeSeven").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				practice_time = "5";
+				practice_question = "80";
+			});
+
+			$("#showDetailModalTimeSeven").click(function () {
+				$("#showDetailModalTimeThree").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#showDetailModalTimeFive").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#showDetailModalTimeSeven").attr("class", "btn btn-primary btn-lg rightspace");
+				practice_time = "7";
+				practice_question = "100";
+			});
+
+			function clearPracticeData() {
+				practice_user_name = '';
+				practice_center_name = '';
+				practice_mode = '';
+				practice_level = '';
+			}
+
+			function clearTestData() {
+				test_user_name = '';
+				test_center_name = '';
+				test_type = '';
+				test_level = '';
+			}
+
+			function clearExamData() {
+				exam_user_name = '';
+				exam_center_name = '';
+				exam_type = '';
+				exam_level = '';
+			}
+			function myFunction() {
+				if (window.pageYOffset > sticky) {
+					header.classList.add("sticky");
+				} else {
+					header.classList.remove("sticky");
+				}
+			}
+
+
+			function clearAllPractice() {
+				practice_user_name = "";
+				practice_center_name = "";
+				practice_mode = "";
+				practice_level = "";
+
+				$("#practice_user_name").val("");
+				$("#practice_center_name").val("");
+
+				$("#practice_easy_button").attr("class", "btn btn-outline-primary  rightspace");
+				$("#practice_medium_button").attr("class", "btn btn-outline-primary  rightspace");
+				$("#practice_hard_button").attr("class", "btn btn-outline-primary  rightspace");
+
+				$("#practice_btn_0").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_1").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_2").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_3").attr("class", "btn btn-outline-primary btn-lg rightspace");
+
+				$("#practice_btn_4").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_5").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_6").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_7").attr("class", "btn btn-outline-primary btn-lg rightspace");
+
+				$("#practice_btn_8").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_9").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_10").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				// $("#practice_btn_11").attr("class","btn btn-outline-primary btn-lg rightspace");
+			}
+
+			function clearAllTest() {
+				$("#test_user_name").val("");
+				$("#test_center_name").val("");
+
+				$("#test_weekly_button").attr("class", "btn btn-outline-success  rightspace");
+				$("#test_monthly_button").attr("class", "btn btn-outline-success  rightspace");
+
+
+				$("#test_btn_0").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_1").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_2").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_3").attr("class", "btn btn-outline-success btn-lg rightspace");
+
+				$("#test_btn_4").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_5").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_6").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_7").attr("class", "btn btn-outline-success btn-lg rightspace");
+
+				$("#test_btn_8").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_9").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_10").attr("class", "btn btn-outline-success btn-lg rightspace");
+				// $("#test_btn_11").attr("class","btn btn-outline-success btn-lg rightspace");
+
+			}
+
+			function clearAllExam() {
+				$("#exam_user_name").val("");
+				$("#exam_center_name").val("");
+
+				$("#exam_mid_button").attr("class", "btn btn-outline-dark  rightspace");
+				$("#exam_final_button").attr("class", "btn btn-outline-dark  rightspace");
+
+				$("#exam_btn_0").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_1").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_2").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_3").attr("class", "btn btn-outline-dark btn-lg rightspace");
+
+				$("#exam_btn_4").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_5").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_6").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_7").attr("class", "btn btn-outline-dark btn-lg rightspace");
+
+				$("#exam_btn_8").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_9").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_10").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				// $("#exam_btn_11").attr("class","btn btn-outline-dark btn-lg rightspace");
+
+			}
+
+
+			$("#practice_easy_button").click(function () {
+				clearAllTest();
+				clearAllExam();
+				practice_mode = "Easy";
+				$("#practice_easy_button").attr("class", "btn btn-primary  rightspace");
+				$("#practice_medium_button").attr("class", "btn btn-outline-primary  rightspace");
+				$("#practice_hard_button").attr("class", "btn btn-outline-primary  rightspace");
+			});
+
+			$("#practice_medium_button").click(function () {
+				clearAllTest();
+				clearAllExam();
+				practice_mode = "Medium";
+				$("#practice_easy_button").attr("class", "btn btn-outline-primary  rightspace");
+				$("#practice_medium_button").attr("class", "btn btn-primary  rightspace");
+				$("#practice_hard_button").attr("class", "btn btn-outline-primary  rightspace");
+			});
+
+			$("#practice_hard_button").click(function () {
+				clearAllTest();
+				clearAllExam();
+				practice_mode = "Hard";
+				$("#practice_easy_button").attr("class", "btn btn-outline-primary  rightspace");
+				$("#practice_medium_button").attr("class", "btn btn-outline-primary  rightspace");
+				$("#practice_hard_button").attr("class", "btn btn-primary  rightspace");
+			});
+
+
+			$("#practice_btn_0").click(function () {
+				clearAllTest();
+				clearAllExam();
+				practice_level = "Level 0";
+
+				$("#practice_btn_0").attr("class", "btn btn-primary btn-lg rightspace");
+				$("#practice_btn_1").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_2").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_3").attr("class", "btn btn-outline-primary btn-lg rightspace");
+
+				$("#practice_btn_4").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_5").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_6").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_7").attr("class", "btn btn-outline-primary btn-lg rightspace");
+
+				$("#practice_btn_8").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_9").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_10").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_11").attr("class", "btn btn-outline-primary btn-lg rightspace");
+			});
+
+			$("#practice_btn_1").click(function () {
+				clearAllTest();
+				clearAllExam();
+				practice_level = "Level 1";
+
+				$("#practice_btn_0").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_1").attr("class", "btn btn-primary btn-lg rightspace");
+				$("#practice_btn_2").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_3").attr("class", "btn btn-outline-primary btn-lg rightspace");
+
+				$("#practice_btn_4").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_5").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_6").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_7").attr("class", "btn btn-outline-primary btn-lg rightspace");
+
+				$("#practice_btn_8").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_9").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_10").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_11").attr("class", "btn btn-outline-primary btn-lg rightspace");
+			});
+
+			$("#practice_btn_2").click(function () {
+				clearAllTest();
+				clearAllExam();
+				practice_level = "Level 2";
+
+				$("#practice_btn_0").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_1").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_2").attr("class", "btn btn-primary btn-lg rightspace");
+				$("#practice_btn_3").attr("class", "btn btn-outline-primary btn-lg rightspace");
+
+				$("#practice_btn_4").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_5").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_6").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_7").attr("class", "btn btn-outline-primary btn-lg rightspace");
+
+				$("#practice_btn_8").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_9").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_10").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_11").attr("class", "btn btn-outline-primary btn-lg rightspace");
+			});
+
+			$("#practice_btn_3").click(function () {
+				clearAllTest();
+				clearAllExam();
+				practice_level = "Level 3";
+
+				$("#practice_btn_0").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_1").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_2").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_3").attr("class", "btn btn-primary btn-lg rightspace");
+
+				$("#practice_btn_4").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_5").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_6").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_7").attr("class", "btn btn-outline-primary btn-lg rightspace");
+
+				$("#practice_btn_8").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_9").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_10").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_11").attr("class", "btn btn-outline-primary btn-lg rightspace");
+			});
+
+			$("#practice_btn_4").click(function () {
+				clearAllTest();
+				clearAllExam();
+				practice_level = "Level 4";
+
+				$("#practice_btn_0").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_1").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_2").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_3").attr("class", "btn btn-outline-primary btn-lg rightspace");
+
+				$("#practice_btn_4").attr("class", "btn btn-primary btn-lg rightspace");
+				$("#practice_btn_5").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_6").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_7").attr("class", "btn btn-outline-primary btn-lg rightspace");
+
+				$("#practice_btn_8").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_9").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_10").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_11").attr("class", "btn btn-outline-primary btn-lg rightspace");
+			});
+
+			$("#practice_btn_5").click(function () {
+				clearAllTest();
+				clearAllExam();
+				practice_level = "Level 5";
+
+				$("#practice_btn_0").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_1").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_2").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_3").attr("class", "btn btn-outline-primary btn-lg rightspace");
+
+				$("#practice_btn_4").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_5").attr("class", "btn btn-primary btn-lg rightspace");
+				$("#practice_btn_6").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_7").attr("class", "btn btn-outline-primary btn-lg rightspace");
+
+				$("#practice_btn_8").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_9").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_10").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_11").attr("class", "btn btn-outline-primary btn-lg rightspace");
+			});
+
+			$("#practice_btn_6").click(function () {
+				clearAllTest();
+				clearAllExam();
+				practice_level = "Level 6";
+
+				$("#practice_btn_0").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_1").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_2").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_3").attr("class", "btn btn-outline-primary btn-lg rightspace");
+
+				$("#practice_btn_4").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_5").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_6").attr("class", "btn btn-primary btn-lg rightspace");
+				$("#practice_btn_7").attr("class", "btn btn-outline-primary btn-lg rightspace");
+
+				$("#practice_btn_8").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_9").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_10").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_11").attr("class", "btn btn-outline-primary btn-lg rightspace");
+			});
+
+			$("#practice_btn_7").click(function () {
+				clearAllTest();
+				clearAllExam();
+				practice_level = "Level 7";
+
+				$("#practice_btn_0").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_1").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_2").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_3").attr("class", "btn btn-outline-primary btn-lg rightspace");
+
+				$("#practice_btn_4").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_5").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_6").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_7").attr("class", "btn btn-primary btn-lg rightspace");
+
+				$("#practice_btn_8").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_9").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_10").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_11").attr("class", "btn btn-outline-primary btn-lg rightspace");
+			});
+
+			$("#practice_btn_8").click(function () {
+				clearAllTest();
+				clearAllExam();
+				practice_level = "Level 8";
+
+				$("#practice_btn_0").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_1").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_2").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_3").attr("class", "btn btn-outline-primary btn-lg rightspace");
+
+				$("#practice_btn_4").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_5").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_6").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_7").attr("class", "btn btn-outline-primary btn-lg rightspace");
+
+				$("#practice_btn_8").attr("class", "btn btn-primary btn-lg rightspace");
+				$("#practice_btn_9").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_10").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_11").attr("class", "btn btn-outline-primary btn-lg rightspace");
+			});
+
+			$("#practice_btn_9").click(function () {
+				clearAllTest();
+				clearAllExam();
+				practice_level = "Level 9";
+
+				$("#practice_btn_0").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_1").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_2").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_3").attr("class", "btn btn-outline-primary btn-lg rightspace");
+
+				$("#practice_btn_4").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_5").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_6").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_7").attr("class", "btn btn-outline-primary btn-lg rightspace");
+
+				$("#practice_btn_8").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_9").attr("class", "btn btn-primary btn-lg rightspace");
+				$("#practice_btn_10").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_11").attr("class", "btn btn-outline-primary btn-lg rightspace");
+			});
+
+			$("#practice_btn_10").click(function () {
+				clearAllTest();
+				clearAllExam();
+				practice_level = "Level 10";
+
+				$("#practice_btn_0").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_1").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_2").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_3").attr("class", "btn btn-outline-primary btn-lg rightspace");
+
+				$("#practice_btn_4").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_5").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_6").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_7").attr("class", "btn btn-outline-primary btn-lg rightspace");
+
+				$("#practice_btn_8").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_9").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_10").attr("class", "btn btn-primary btn-lg rightspace");
+				$("#practice_btn_11").attr("class", "btn btn-outline-primary btn-lg rightspace");
+			});
+
+			$("#practice_btn_11").click(function () {
+				clearAllTest();
+				clearAllExam();
+				practice_level = "Level 11";
+
+				$("#practice_btn_0").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_1").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_2").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_3").attr("class", "btn btn-outline-primary btn-lg rightspace");
+
+				$("#practice_btn_4").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_5").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_6").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_7").attr("class", "btn btn-outline-primary btn-lg rightspace");
+
+				$("#practice_btn_8").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_9").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_10").attr("class", "btn btn-outline-primary btn-lg rightspace");
+				$("#practice_btn_11").attr("class", "btn btn-primary btn-lg rightspace");
+			});
+
+			function startPracting() {
+				clearTestData();
+				clearExamData()
+				practice_user_name = $("#practice_user_name").val();
+				practice_center_name = $("#practice_center_name").val();
+
+				if (practice_user_name == '' || practice_center_name == '' || practice_mode == '' || practice_level == '') {
+					alert("Something Went Wrong");
+				} else {
+					$("#showDetailModalLabel").html("Free Practice");
+					$("#showDetailModalUserName").html(practice_user_name);
+					$("#showDetailModalCenterName").html(practice_center_name);
+					$("#showDetailModalModeTitle").html("Mode");
+					$("#showDetailModalModeValue").html(practice_mode);
+					$("#showDetailModalLevel").html(practice_level);
+					$("#showDetailModalTimeTab").show();
+					$("#showDetailModalPasswordTab").css("display", "none");
+					$("#showDetailModal").modal('show');
+				}
+
+			}
+
+			$("#test_weekly_button").click(function () {
+				clearAllPractice();
+				clearAllExam();
+				test_type = "Weekly Test";
+				$("#test_weekly_button").attr("class", "btn btn-success  rightspace");
+				$("#test_monthly_button").attr("class", "btn btn-outline-success  rightspace");
+			});
+
+			$("#test_monthly_button").click(function () {
+				clearAllPractice();
+				clearAllExam();
+				test_type = "Monthly Test";
+				$("#test_weekly_button").attr("class", "btn btn-outline-success  rightspace");
+				$("#test_monthly_button").attr("class", "btn btn-success  rightspace");
+			});
+
+			$("#test_btn_0").click(function () {
+				clearAllPractice();
+				clearAllExam();
+				test_level = "Level 0";
+
+				$("#test_btn_0").attr("class", "btn btn-success btn-lg rightspace");
+				$("#test_btn_1").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_2").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_3").attr("class", "btn btn-outline-success btn-lg rightspace");
+
+				$("#test_btn_4").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_5").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_6").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_7").attr("class", "btn btn-outline-success btn-lg rightspace");
+
+				$("#test_btn_8").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_9").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_10").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_11").attr("class", "btn btn-outline-success btn-lg rightspace");
+			});
+
+			$("#test_btn_1").click(function () {
+				clearAllPractice();
+				clearAllExam();
+				test_level = "Level 1";
+
+				$("#test_btn_0").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_1").attr("class", "btn btn-success btn-lg rightspace");
+				$("#test_btn_2").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_3").attr("class", "btn btn-outline-success btn-lg rightspace");
+
+				$("#test_btn_4").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_5").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_6").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_7").attr("class", "btn btn-outline-success btn-lg rightspace");
+
+				$("#test_btn_8").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_9").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_10").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_11").attr("class", "btn btn-outline-success btn-lg rightspace");
+			});
+
+			$("#test_btn_2").click(function () {
+				clearAllPractice();
+				clearAllExam();
+				test_level = "Level 2";
+
+				$("#test_btn_0").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_1").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_2").attr("class", "btn btn-success btn-lg rightspace");
+				$("#test_btn_3").attr("class", "btn btn-outline-success btn-lg rightspace");
+
+				$("#test_btn_4").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_5").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_6").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_7").attr("class", "btn btn-outline-success btn-lg rightspace");
+
+				$("#test_btn_8").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_9").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_10").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_11").attr("class", "btn btn-outline-success btn-lg rightspace");
+			});
+
+			$("#test_btn_3").click(function () {
+				clearAllPractice();
+				clearAllExam();
+				test_level = "Level 3";
+
+				$("#test_btn_0").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_1").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_2").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_3").attr("class", "btn btn-success btn-lg rightspace");
+
+				$("#test_btn_4").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_5").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_6").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_7").attr("class", "btn btn-outline-success btn-lg rightspace");
+
+				$("#test_btn_8").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_9").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_10").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_11").attr("class", "btn btn-outline-success btn-lg rightspace");
+			});
+
+			$("#test_btn_4").click(function () {
+				clearAllPractice();
+				clearAllExam();
+				test_level = "Level 4";
+
+				$("#test_btn_0").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_1").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_2").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_3").attr("class", "btn btn-outline-success btn-lg rightspace");
+
+				$("#test_btn_4").attr("class", "btn btn-success btn-lg rightspace");
+				$("#test_btn_5").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_6").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_7").attr("class", "btn btn-outline-success btn-lg rightspace");
+
+				$("#test_btn_8").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_9").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_10").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_11").attr("class", "btn btn-outline-success btn-lg rightspace");
+			});
+
+			$("#test_btn_5").click(function () {
+				clearAllPractice();
+				clearAllExam();
+				test_level = "Level 5";
+
+				$("#test_btn_0").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_1").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_2").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_3").attr("class", "btn btn-outline-success btn-lg rightspace");
+
+				$("#test_btn_4").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_5").attr("class", "btn btn-success btn-lg rightspace");
+				$("#test_btn_6").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_7").attr("class", "btn btn-outline-success btn-lg rightspace");
+
+				$("#test_btn_8").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_9").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_10").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_11").attr("class", "btn btn-outline-success btn-lg rightspace");
+			});
+
+			$("#test_btn_6").click(function () {
+				clearAllPractice();
+				clearAllExam();
+				test_level = "Level 6";
+
+				$("#test_btn_0").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_1").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_2").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_3").attr("class", "btn btn-outline-success btn-lg rightspace");
+
+				$("#test_btn_4").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_5").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_6").attr("class", "btn btn-success btn-lg rightspace");
+				$("#test_btn_7").attr("class", "btn btn-outline-success btn-lg rightspace");
+
+				$("#test_btn_8").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_9").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_10").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_11").attr("class", "btn btn-outline-success btn-lg rightspace");
+			});
+
+			$("#test_btn_7").click(function () {
+				clearAllPractice();
+				clearAllExam();
+				test_level = "Level 7";
+
+				$("#test_btn_0").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_1").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_2").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_3").attr("class", "btn btn-outline-success btn-lg rightspace");
+
+				$("#test_btn_4").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_5").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_6").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_7").attr("class", "btn btn-success btn-lg rightspace");
+
+				$("#test_btn_8").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_9").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_10").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_11").attr("class", "btn btn-outline-success btn-lg rightspace");
+			});
+
+			$("#test_btn_8").click(function () {
+				clearAllPractice();
+				clearAllExam();
+				test_level = "Level 8";
+
+				$("#test_btn_0").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_1").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_2").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_3").attr("class", "btn btn-outline-success btn-lg rightspace");
+
+				$("#test_btn_4").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_5").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_6").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_7").attr("class", "btn btn-outline-success btn-lg rightspace");
+
+				$("#test_btn_8").attr("class", "btn btn-success btn-lg rightspace");
+				$("#test_btn_9").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_10").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_11").attr("class", "btn btn-outline-success btn-lg rightspace");
+			});
+
+			$("#test_btn_9").click(function () {
+				clearAllPractice();
+				clearAllExam();
+				test_level = "Level 9";
+
+				$("#test_btn_0").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_1").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_2").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_3").attr("class", "btn btn-outline-success btn-lg rightspace");
+
+				$("#test_btn_4").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_5").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_6").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_7").attr("class", "btn btn-outline-success btn-lg rightspace");
+
+				$("#test_btn_8").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_9").attr("class", "btn btn-success btn-lg rightspace");
+				$("#test_btn_10").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_11").attr("class", "btn btn-outline-success btn-lg rightspace");
+			});
+
+			$("#test_btn_10").click(function () {
+				clearAllPractice();
+				clearAllExam();
+				test_level = "Level 10";
+
+				$("#test_btn_0").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_1").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_2").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_3").attr("class", "btn btn-outline-success btn-lg rightspace");
+
+				$("#test_btn_4").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_5").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_6").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_7").attr("class", "btn btn-outline-success btn-lg rightspace");
+
+				$("#test_btn_8").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_9").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_10").attr("class", "btn btn-success btn-lg rightspace");
+				$("#test_btn_11").attr("class", "btn btn-outline-success btn-lg rightspace");
+			});
+
+			$("#test_btn_11").click(function () {
+				clearAllPractice();
+				clearAllExam();
+				test_level = "Level 11";
+
+				$("#test_btn_0").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_1").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_2").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_3").attr("class", "btn btn-outline-success btn-lg rightspace");
+
+				$("#test_btn_4").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_5").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_6").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_7").attr("class", "btn btn-outline-success btn-lg rightspace");
+
+				$("#test_btn_8").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_9").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_10").attr("class", "btn btn-outline-success btn-lg rightspace");
+				$("#test_btn_11").attr("class", "btn btn-success btn-lg rightspace");
+			});
+
+			function startTest() {
+				clearPracticeData();
+				clearExamData();
+
+				test_user_name = $("#test_user_name").val();
+				test_center_name = $("#test_center_name").val();
+
+				if (test_user_name == '' || test_center_name == '' || test_type == '' || test_level == '') {
+					alert("Something Went Wrong");
+				} else {
+					$("#showDetailModalLabel").html("Online Test");
+					$("#showDetailModalUserName").html(test_user_name);
+					$("#showDetailModalCenterName").html(test_center_name);
+					$("#showDetailModalModeTitle").html("Type");
+					$("#showDetailModalModeValue").html(test_type);
+					$("#showDetailModalLevel").html(test_level);
+
+					$("#showDetailModalPasswordTab").show();
+					$("#showDetailModalTimeTab").hide();
+					$("#showDetailModal").modal('show');
+				}
+
+			}
+
+			$("#exam_mid_button").click(function () {
+				clearAllPractice();
+				clearAllTest();
+				exam_type = "Olympiad";
+				$("#exam_mid_button").attr("class", "btn btn-dark  rightspace");
+				$("#exam_final_button").attr("class", "btn btn-outline-dark  rightspace");
+			});
+
+			$("#exam_final_button").click(function () {
+				clearAllPractice();
+				clearAllTest();
+				exam_type = "Final Exam";
+				$("#exam_mid_button").attr("class", "btn btn-outline-dark  rightspace");
+				$("#exam_final_button").attr("class", "btn btn-dark  rightspace");
+			});
+
+			$("#exam_btn_0").click(function () {
+				clearAllPractice();
+				clearAllTest();
+				exam_level = "Level 0";
+
+				$("#exam_btn_0").attr("class", "btn btn-dark btn-lg rightspace");
+				$("#exam_btn_1").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_2").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_3").attr("class", "btn btn-outline-dark btn-lg rightspace");
+
+				$("#exam_btn_4").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_5").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_6").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_7").attr("class", "btn btn-outline-dark btn-lg rightspace");
+
+				$("#exam_btn_8").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_9").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_10").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_11").attr("class", "btn btn-outline-dark btn-lg rightspace");
+			});
+
+			$("#exam_btn_1").click(function () {
+				clearAllPractice();
+				clearAllTest();
+				exam_level = "Level 1";
+
+				$("#exam_btn_0").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_1").attr("class", "btn btn-dark btn-lg rightspace");
+				$("#exam_btn_2").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_3").attr("class", "btn btn-outline-dark btn-lg rightspace");
+
+				$("#exam_btn_4").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_5").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_6").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_7").attr("class", "btn btn-outline-dark btn-lg rightspace");
+
+				$("#exam_btn_8").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_9").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_10").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_11").attr("class", "btn btn-outline-dark btn-lg rightspace");
+			});
+
+			$("#exam_btn_2").click(function () {
+				clearAllPractice();
+				clearAllTest();
+				exam_level = "Level 2";
+
+				$("#exam_btn_0").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_1").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_2").attr("class", "btn btn-dark btn-lg rightspace");
+				$("#exam_btn_3").attr("class", "btn btn-outline-dark btn-lg rightspace");
+
+				$("#exam_btn_4").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_5").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_6").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_7").attr("class", "btn btn-outline-dark btn-lg rightspace");
+
+				$("#exam_btn_8").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_9").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_10").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_11").attr("class", "btn btn-outline-dark btn-lg rightspace");
+			});
+
+			$("#exam_btn_3").click(function () {
+				clearAllPractice();
+				clearAllTest();
+				exam_level = "Level 3";
+
+				$("#exam_btn_0").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_1").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_2").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_3").attr("class", "btn btn-dark btn-lg rightspace");
+
+				$("#exam_btn_4").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_5").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_6").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_7").attr("class", "btn btn-outline-dark btn-lg rightspace");
+
+				$("#exam_btn_8").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_9").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_10").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_11").attr("class", "btn btn-outline-dark btn-lg rightspace");
+			});
+
+			$("#exam_btn_4").click(function () {
+				clearAllPractice();
+				clearAllTest();
+				exam_level = "Level 4";
+
+				$("#exam_btn_0").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_1").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_2").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_3").attr("class", "btn btn-outline-dark btn-lg rightspace");
+
+				$("#exam_btn_4").attr("class", "btn btn-dark btn-lg rightspace");
+				$("#exam_btn_5").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_6").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_7").attr("class", "btn btn-outline-dark btn-lg rightspace");
+
+				$("#exam_btn_8").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_9").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_10").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_11").attr("class", "btn btn-outline-dark btn-lg rightspace");
+			});
+
+			$("#exam_btn_5").click(function () {
+				clearAllPractice();
+				clearAllTest();
+				exam_level = "Level 5";
+
+				$("#exam_btn_0").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_1").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_2").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_3").attr("class", "btn btn-outline-dark btn-lg rightspace");
+
+				$("#exam_btn_4").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_5").attr("class", "btn btn-dark btn-lg rightspace");
+				$("#exam_btn_6").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_7").attr("class", "btn btn-outline-dark btn-lg rightspace");
+
+				$("#exam_btn_8").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_9").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_10").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_11").attr("class", "btn btn-outline-dark btn-lg rightspace");
+			});
+
+			$("#exam_btn_6").click(function () {
+				clearAllPractice();
+				clearAllTest();
+				exam_level = "Level 6";
+
+				$("#exam_btn_0").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_1").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_2").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_3").attr("class", "btn btn-outline-dark btn-lg rightspace");
+
+				$("#exam_btn_4").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_5").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_6").attr("class", "btn btn-dark btn-lg rightspace");
+				$("#exam_btn_7").attr("class", "btn btn-outline-dark btn-lg rightspace");
+
+				$("#exam_btn_8").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_9").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_10").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_11").attr("class", "btn btn-outline-dark btn-lg rightspace");
+			});
+
+			$("#exam_btn_7").click(function () {
+				clearAllPractice();
+				clearAllTest();
+				exam_level = "Level 7";
+
+				$("#exam_btn_0").attr("class", "btn btn-dark btn-lg rightspace");
+				$("#exam_btn_1").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_2").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_3").attr("class", "btn btn-outline-dark btn-lg rightspace");
+
+				$("#exam_btn_4").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_5").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_6").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_7").attr("class", "btn btn-dark btn-lg rightspace");
+
+				$("#exam_btn_8").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_9").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_10").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_11").attr("class", "btn btn-outline-dark btn-lg rightspace");
+			});
+
+			$("#exam_btn_8").click(function () {
+				clearAllPractice();
+				clearAllTest();
+				exam_level = "Level 8";
+
+				$("#exam_btn_0").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_1").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_2").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_3").attr("class", "btn btn-outline-dark btn-lg rightspace");
+
+				$("#exam_btn_4").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_5").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_6").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_7").attr("class", "btn btn-outline-dark btn-lg rightspace");
+
+				$("#exam_btn_8").attr("class", "btn btn-dark btn-lg rightspace");
+				$("#exam_btn_9").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_10").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_11").attr("class", "btn btn-outline-dark btn-lg rightspace");
+			});
+
+			$("#exam_btn_9").click(function () {
+				clearAllPractice();
+				clearAllTest();
+				exam_level = "Level 9";
+
+				$("#exam_btn_0").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_1").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_2").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_3").attr("class", "btn btn-outline-dark btn-lg rightspace");
+
+				$("#exam_btn_4").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_5").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_6").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_7").attr("class", "btn btn-outline-dark btn-lg rightspace");
+
+				$("#exam_btn_8").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_9").attr("class", "btn btn-dark btn-lg rightspace");
+				$("#exam_btn_10").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_11").attr("class", "btn btn-outline-dark btn-lg rightspace");
+			});
+
+			$("#exam_btn_10").click(function () {
+				clearAllPractice();
+				clearAllTest();
+				exam_level = "Level 10";
+
+				$("#exam_btn_0").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_1").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_2").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_3").attr("class", "btn btn-outline-dark btn-lg rightspace");
+
+				$("#exam_btn_4").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_5").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_6").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_7").attr("class", "btn btn-outline-dark btn-lg rightspace");
+
+				$("#exam_btn_8").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_9").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_10").attr("class", "btn btn-dark btn-lg rightspace");
+				$("#exam_btn_11").attr("class", "btn btn-outline-dark btn-lg rightspace");
+			});
+
+			$("#exam_btn_11").click(function () {
+				clearAllPractice();
+				clearAllTest();
+				exam_level = "Level 11";
+
+				$("#exam_btn_0").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_1").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_2").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_3").attr("class", "btn btn-outline-dark btn-lg rightspace");
+
+				$("#exam_btn_4").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_5").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_6").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_7").attr("class", "btn btn-outline-dark btn-lg rightspace");
+
+				$("#exam_btn_8").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_9").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_10").attr("class", "btn btn-outline-dark btn-lg rightspace");
+				$("#exam_btn_11").attr("class", "btn btn-dark btn-lg rightspace");
+			});
+
+			function startExam() {
+				clearPracticeData();
+				clearTestData();
+
+				exam_user_name = $("#exam_user_name").val();
+				exam_center_name = $("#exam_center_name").val();
+
+				if (exam_user_name == '' || exam_center_name == '' || exam_type == '' || exam_level == '') {
+					alert("Something Went Wrong");
+				} else {
+					$("#showDetailModalLabel").html("Online Exam");
+					$("#showDetailModalUserName").html(exam_user_name);
+					$("#showDetailModalCenterName").html(exam_center_name);
+					$("#showDetailModalModeTitle").html("Type");
+					$("#showDetailModalModeValue").html(exam_type);
+					$("#showDetailModalLevel").html(exam_level);
+
+					$("#showDetailModalPasswordTab").show();
+					$("#showDetailModalTimeTab").hide();
+					$("#showDetailModal").modal('show');
+				}
+
+			}
+
+			// $("#continueModal").click(function () {
+			// 	if (firebase.auth().currentUser == null) {
+			// 		alert("Please Login to take exam");
+			// 	} else {
+			// 		if (practice_user_name != '' && practice_center_name != '' &&
+			// 			practice_mode != '' && practice_level != '' && practice_time != "" && practice_question != "") {
+			// 			var database = firebase.database();
+
+			// 			database.ref().child("Question").child("Practice").child(practice_mode).child(practice_level).on('value', (s) => {
+			// 				if (s.exists()) {
+			// 					$.ajax({
+			// 						url: 'exam-session.php',
+			// 						method: 'POST',
+			// 						data: 'nos=' + practice_question + "&type=Practice&mode=" + practice_mode + "&level=" + practice_level + "&username=" + practice_user_name + "&cname=" + practice_center_name + "&time=" + practice_time,
+			// 						success: function () {
+			// 							$("#showDetailModal").modal('hide');
+			// 							clearAllPractice();
+			// 							window.open("exam.php", '_blank');
+			// 							window.close();
+			// 						}
+			// 					});
+			// 				} else {
+			// 					alert("Level not updated yet");
+			// 				}
+			// 			});
+			// 		}
+			// 		else if (test_user_name != '' && test_center_name != '' &&
+			// 			test_type != '' && test_level != '') {
+			// 			var myUid = uni_id;
+
+			// 			var database = firebase.database();
+
+			// 			database.ref().child("Scores").child(myUid).child(getTodaysDate("-")).child("Test").child(test_level).child(test_type).on('value', (s) => {
+			// 				if (s.exists()) {
+			// 					alert("You have already finihed test");
+			// 				} else {
+			// 					database.ref().child("ScheduleTest").child(getTodaysDate("-")).on('value', (snapshot) => {
+			// 						var counter = -1;
+			// 						snapshot.forEach(function (dataSnapshot) {
+			// 							let lvl = dataSnapshot.child("level").val();
+			// 							let pss = dataSnapshot.child("password").val();
+			// 							let typ = dataSnapshot.child("title").val();
+			// 							let tm = dataSnapshot.child("time").val();
+			// 							let cnt = dataSnapshot.child("question_count").val();
+			// 							let password = $("#showDetailModalPassword").val();
+
+			// 							if (typ == test_type && pss == password && test_level == lvl) {
+			// 								counter = 1;
+			// 								$.ajax({
+			// 									url: 'exam-session.php',
+			// 									method: 'POST',
+			// 									data: 'nos=' + cnt + "&type=Test&mode=" + test_type + "&level=" + test_level + "&username=" + test_user_name + "&cname=" + test_center_name + "&time=" + tm,
+			// 									success: function () {
+			// 										$("#showDetailModal").modal('hide');
+			// 										clearAllTest();
+			// 										window.open("exam.php", '_blank');
+			// 										window.close();
+			// 									}
+			// 								});
+			// 							}
+			// 						});
+			// 						if (counter == -1) {
+			// 							alert("Check Your Details!");
+			// 						}
+			// 					});
+			// 				}
+			// 			});
+			// 		}
+			// 		else if (exam_user_name != '' && exam_center_name != '' &&
+			// 			exam_type != '' && exam_level != '') {
+			// 			var myUid = uni_id;
+
+			// 			var database = firebase.database();
+			// 			database.ref().child("Scores").child(myUid).child(getTodaysDate("-")).child("Exam").child(exam_level).child(exam_type).on('value', (s) => {
+			// 				if (s.exists()) {
+			// 					alert("You have already finihed exam");
+			// 				} else {
+			// 					database.ref().child("ScheduleExam").child(getTodaysDate("-")).on('value', (snapshot) => {
+			// 						var counter = -1;
+			// 						snapshot.forEach(function (dataSnapshot) {
+			// 							let lvl = dataSnapshot.child("level").val();
+			// 							let pss = dataSnapshot.child("password").val();
+			// 							let typ = dataSnapshot.child("title").val();
+			// 							let tm = dataSnapshot.child("time").val();
+			// 							let cnt = dataSnapshot.child("question_count").val();
+			// 							let password = $("#showDetailModalPassword").val();
+
+			// 							if (typ == exam_type && pss == password && exam_level == lvl) {
+			// 								counter = 1;
+			// 								$.ajax({
+			// 									url: 'exam-session.php',
+			// 									method: 'POST',
+			// 									data: 'nos=' + cnt + "&type=Exam&mode=" + exam_type + "&level=" + exam_level + "&username=" + exam_user_name + "&cname=" + exam_center_name + "&time=" + tm,
+			// 									success: function () {
+			// 										$("#showDetailModal").modal('hide');
+			// 										clearAllExam();
+			// 										window.open("exam.php", '_blank');
+			// 										window.close();
+			// 									}
+			// 								});
+			// 							}
+			// 						});
+			// 						if (counter == -1) {
+			// 							alert("Check Your Details!");
+			// 						}
+			// 					});
+			// 				}
+			// 			});
+
+
+			// 		}
+			// 		else {
+			// 			alert("Please check your details..");
+			// 		}
+			// 	}
+			// });
+
+
+
+
+
+
+
+			$("#continueModal").click(function () {
+				if (firebase.auth().currentUser == null) {
+					alert("Please Login to take exam");
+				} else {
+					if (practice_user_name != '' && practice_center_name != '' &&
+						practice_mode != '' && practice_level != '' && practice_time != "" && practice_question != "") {
+						var database = firebase.database();
+
+						database.ref().child("Question").child("Practice").child(practice_mode).child(practice_level).on('value', (s) => {
+							if (s.exists()) {
+								$.ajax({
+									url: 'exam-session.php',
+									method: 'POST',
+									data: 'nos=' + practice_question + "&type=Practice&mode=" + practice_mode + "&level=" + practice_level + "&username=" + practice_user_name + "&cname=" + practice_center_name + "&time=" + practice_time,
+									success: function () {
+										$("#showDetailModal").modal('hide');
+										clearAllPractice();
+										// Safari/iOS fix: Make sure the window.open() is triggered by a user action
+										var newTab = window.open("exam.php", '_blank');
+										if (newTab) {
+											newTab.focus(); // Focus on the new tab
+										} else {
+											alert("Please allow pop-ups for this site.");
+										}
+										window.close(); // Close the current window or tab
+									}
+								});
+							} else {
+								alert("Level not updated yet");
+							}
+						});
+					} else if (test_user_name != '' && test_center_name != '' &&
+						test_type != '' && test_level != '') {
+						var myUid = uni_id;
+
+						var database = firebase.database();
+
+						database.ref().child("Scores").child(myUid).child(getTodaysDate("-")).child("Test").child(test_level).child(test_type).on('value', (s) => {
+							if (s.exists()) {
+								alert("You have already finished test");
+							} else {
+								database.ref().child("ScheduleTest").child(getTodaysDate("-")).on('value', (snapshot) => {
+									var counter = -1;
+									snapshot.forEach(function (dataSnapshot) {
+										let lvl = dataSnapshot.child("level").val();
+										let pss = dataSnapshot.child("password").val();
+										let typ = dataSnapshot.child("title").val();
+										let tm = dataSnapshot.child("time").val();
+										let cnt = dataSnapshot.child("question_count").val();
+										let password = $("#showDetailModalPassword").val();
+
+										if (typ == test_type && pss == password && test_level == lvl) {
+											counter = 1;
+											$.ajax({
+												url: 'exam-session.php',
+												method: 'POST',
+												data: 'nos=' + cnt + "&type=Test&mode=" + test_type + "&level=" + test_level + "&username=" + test_user_name + "&cname=" + test_center_name + "&time=" + tm,
+												success: function () {
+													$("#showDetailModal").modal('hide');
+													clearAllTest();
+													// Safari/iOS fix: Make sure the window.open() is triggered by a user action
+													var newTab = window.open("exam.php", '_blank');
+													if (newTab) {
+														newTab.focus(); // Focus on the new tab
+													} else {
+														alert("Please allow pop-ups for this site.");
+													}
+													window.close(); // Close the current window or tab
+												}
+											});
+										}
+									});
+									if (counter == -1) {
+										alert("Check Your Details!");
+									}
+								});
+							}
+						});
+					} else if (exam_user_name != '' && exam_center_name != '' &&
+						exam_type != '' && exam_level != '') {
+						var myUid = uni_id;
+
+						var database = firebase.database();
+						database.ref().child("Scores").child(myUid).child(getTodaysDate("-")).child("Exam").child(exam_level).child(exam_type).on('value', (s) => {
+							if (s.exists()) {
+								alert("You have already finished exam");
+							} else {
+								database.ref().child("ScheduleExam").child(getTodaysDate("-")).on('value', (snapshot) => {
+									var counter = -1;
+									snapshot.forEach(function (dataSnapshot) {
+										let lvl = dataSnapshot.child("level").val();
+										let pss = dataSnapshot.child("password").val();
+										let typ = dataSnapshot.child("title").val();
+										let tm = dataSnapshot.child("time").val();
+										let cnt = dataSnapshot.child("question_count").val();
+										let password = $("#showDetailModalPassword").val();
+
+										if (typ == exam_type && pss == password && exam_level == lvl) {
+											counter = 1;
+											$.ajax({
+												url: 'exam-session.php',
+												method: 'POST',
+												data: 'nos=' + cnt + "&type=Exam&mode=" + exam_type + "&level=" + exam_level + "&username=" + exam_user_name + "&cname=" + exam_center_name + "&time=" + tm,
+												success: function () {
+													$("#showDetailModal").modal('hide');
+													clearAllExam();
+													// Safari/iOS fix: Make sure the window.open() is triggered by a user action
+													var newTab = window.open("exam.php", '_blank');
+													if (newTab) {
+														newTab.focus(); // Focus on the new tab
+													} else {
+														alert("Please allow pop-ups for this site.");
+													}
+													window.close(); // Close the current window or tab
+												}
+											});
+										}
+									});
+									if (counter == -1) {
+										alert("Check Your Details!");
+									}
+								});
+							}
+						});
+					} else {
+						alert("Please check your details..");
+					}
+				}
+			});
+
+			
+			function getTodaysDate(sp) {
+				today = new Date();
+				var dd = today.getDate();
+				var mm = today.getMonth() + 1; //As January is 0.
+				var yyyy = today.getFullYear();
+
+				if (dd < 10) dd = '0' + dd;
+				if (mm < 10) mm = '0' + mm;
+				return (dd + sp + mm + sp + yyyy);
+			}
+
+			function goToPracticeScore() {
+				if (firebase.auth().currentUser == null) {
+					alert("Please Login first");
+				} else {
+					window.location = "practice-score.php";
+				}
+			}
+			function goToTestScore() {
+				if (firebase.auth().currentUser == null) {
+					alert("Please Login first");
+				} else {
+					window.location = "test-score.php";
+				}
+			}
+			function goToExamScore() {
+				if (firebase.auth().currentUser == null) {
+					alert("Please Login first");
+				} else {
+					window.location = "exam-score.php";
+				}
+			}
+
+
+			function checkLoginStatus(event) {
+				console.log("checking")
+				event.preventDefault();  // 🚫 Prevent the default navigation
+				if (firebase.auth().currentUser == null) {
+					alert("Please Login first");  // 🚨 Show alert immediately
+				} else {
+					window.location.href = "practice.php";  // ✅ Redirect if logged in
+				}
+			}
+		</script>
+	</body>
+
+	</html>
