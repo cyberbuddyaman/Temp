@@ -1,0 +1,222 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+
+}
+
+a {
+  color: #009961;
+}
+
+a:hover {
+  color: #00cc81;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Preloader
+--------------------------------------------------------------*/
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background: #fff;
+}
+
+#preloader:before {
+  content: "";
+  position: fixed;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  border: 6px solid #009961;
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: animate-preloader 1s linear infinite;
+  animation: animate-preloader 1s linear infinite;
+}
+
+@-webkit-keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------
+.back-to-top {
+  position: fixed;
+  display: none;
+  right: 15px;
+  bottom: 15px;
+  z-index: 99999;
+}
+
+.back-to-top i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background: #009961;
+  color: #fff;
+  transition: all 0.4s;
+}
+
+.back-to-top i:hover {
+  background: #00b371;
+  color: #fff;
+}
+*/
+/*--------------------------------------------------------------
+# whatsapp help button
+--------------------------------------------------------------*/
+.help {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  z-index: 99999;
+}
+
+.help i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  width: 100px;
+  height: 40px;
+  border-radius: 50px;
+  background: #25D366;
+  color: #fff;
+  transition: all 0.4s;
+}
+.helpSpan{
+	font-size:18px;
+}
+.help i:hover {
+  background: #19b554;
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Feedback help button
+--------------------------------------------------------------*/
+.feedBackhelp {
+  position: fixed;
+  right: 15px;
+  bottom: 65px;
+  z-index: 99999;
+}
+
+.feedBackhelp i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 38px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: #007BFF;
+  color: #fff;
+  transition: all 0.4s;
+}
+
+.feedBackhelp i:hover {
+  background: #2377D1;
+  color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 80px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #74cee4;
+}
+
+.courses {
+  padding-bottom: 30px;
+}
+
+.courses h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.courses h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 70px;
+  height: 5px;
+  background: #EDBF47;
+  bottom: 0;
+  left: 0;
+}
+
+
+.courses p {
+  margin-bottom: 0;
+  color: #2e3233;
+  font-size: 16px;
+}
+/*--------------------------------------------------------------
+# About US
+--------------------------------------------------------------*/
+
+.aboutUs h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.aboutUs h3 {
+	color:#F4591F;
+}
+.aboutUs h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 70px;
+  height: 5px;
+  background: #6FC191;
+  bottom: 0;
+  left: 0;
+}

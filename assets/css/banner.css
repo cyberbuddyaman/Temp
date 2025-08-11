@@ -1,0 +1,29 @@
+.photobanner {
+      position: relative;
+      height: 233px;
+      width: 100%;
+      margin-bottom: 30px;
+    }
+
+    .photobanner img {
+      top: 0px;
+      width: auto;
+	  height: auto;
+      /*box-shadow: 2px 2px 8px #8a8a8a;*/
+      position: absolute;
+	  animation-name: all;
+	  transition: transform .2s;
+    }
+ 
+.photobanner img:hover {
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ -ms-transform: scale(1.1);
+ transform: scale(1.1);
+ cursor: pointer;
+ 
+ -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+ -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+ box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}

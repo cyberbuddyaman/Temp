@@ -1,0 +1,55 @@
+		.level-button {
+			width: 70px;
+			height: 70px;
+			margin: 5px;
+		}
+		.rightspace{
+				margin-right:10px;
+				}
+				
+		.width_hundred{
+				width:100% !important;
+		}
+		.margin_twenty{
+				margin-top:20px !important;
+		}
+		.practice-margin{
+			margin-top:30px !important;
+		}
+		.padding_ten{
+			padding:10px !important;
+		}
+		
+		.header-background{
+			background-color:#009961 !important;
+		}
+/*--------------------------------------------------------------
+# free practice
+--------------------------------------------------------------*/
+		.free-practice-background{
+			background-color:#d9e5ff !important;
+			position:relative;
+		}
+		.practice_start_button{
+			margin-top:50px;
+			margin-bottom:30px; 
+			width:50%;
+		}
+
+		
+/*--------------------------------------------------------------
+# Online test
+--------------------------------------------------------------*/
+		.online-test-background{
+			background-color:#eeffe6 !important;
+			position:relative;
+		}
+		
+/*--------------------------------------------------------------
+# Online exam
+--------------------------------------------------------------*/	
+
+		.online-exam-background{
+			background-color:#E8E8E8 !important;
+			position:relative;
+		}
