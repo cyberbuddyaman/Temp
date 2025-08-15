@@ -5,9 +5,6 @@ A modern, visually stunning **fashion-themed portfolio website** showcasing phot
 
 ---
 
-## 🚀 Live Demo  
-🔗 **[View Website](https://nandnivarshney1122.github.io/fashion/)**
-
 ---
 
 ## 📂 Repository
